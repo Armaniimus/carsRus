@@ -1,0 +1,130 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* .klant-id,
+.klant-overig,
+.kenteken,
+.datumApk {
+    padding: 15px;
+} */
+
+.row-data {
+    border: 1px black solid;
+}
+
+td,
+th {
+    padding: 10px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bedrijfAdres {
+    padding: 15px;
+}
+
+.bedrijfAdres > p {
+    margin-top:0px;
+    margin-bottom: 0px;
+    text-shadow: 0px 1px 0px #00a;
+}
+
+.adresLine {
+    background-color: darkorange;
+    border: 1px solid black;
+    border-bottom: 0px;
+}
+
+.adresLine h1 {
+    color: blue;
+}
+
+.adresLine p {
+    color: #33F;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav li {
+    padding: 15px;
+    color: blue;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+}
+
+thead {
+    background-color: orange;
+}
+
+.zoekKnop {
+    box-sizing: border-box;
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0px;
+
+    box-shadow: 1px 1px 0px 1px darkblue;
+}
+
+.zoekKnop:hover {
+    box-shadow: 1px 1px 0px 0px darkblue;
+    color: #ff8;
+}
+
+.link {
+    padding: 5px;
+    color: blue;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+table td > a {
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 1px;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    text-shadow: 1px 1px 0px #111;
+    text-decoration: none;
+}
+
+table td > a:hover {
+    border-width: 2px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+}
